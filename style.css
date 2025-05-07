@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/e8/01/51/e8015169d56ea21da10961309efa5ee3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    color: hotpink;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6); /* ← semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   /* subtle shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 70%; 
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-box {
+    background-color: rgba(255, 255, 255, 0.5); /* white with 50% transparency */
+    border: 3px solid;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 750px;
+    border-color: #FEF3E2;
+}
+
+.btn-dark{
+    background-color: #FFE6E6;
+    color: #CA8787;
+    border-color: #A87676;
+}
+
+.border-primary {
+    border-color: #A87676 !important;
+}
+
+h5 a{
+    margin-top: 50px;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+}
